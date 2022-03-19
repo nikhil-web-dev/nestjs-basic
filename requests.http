@@ -1,4 +1,15 @@
 GET http://localhost:3000/
 
-###list all messages
+### List all messages
 GET http://localhost:3000/messages
+
+### Create a new message
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "abcd"
+}
+
+### Get a particular message
+GET http://localhost:3000/messages/348
