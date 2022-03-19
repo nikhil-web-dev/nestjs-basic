@@ -58,6 +58,34 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Some common commands
+
+```bash
+# Create new project
+$ nest new <name>
+
+# Generate a new module
+$ nest generate module <name>
+
+# Generate a new controller, [--flat Do not generate a folder for the element].
+$ nest generate controller <name> --flat
+
+## Further reading
+[cli usage](https://docs.nestjs.com/cli/usages) 
+```
+
+## Parts of Nest
+
+- Controller - Handles incoming requests
+- Services - Handles data access and business logics
+- Modules - Groups together code
+- Pipes - Validates incoming data
+- Filters - Handles error that occur during request handling
+- Guards -  Handles authentication
+- Interceptors - Adds extra logic to incoming requests or outgoing responses
+- Repositories - Handles data stored in a DB
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
