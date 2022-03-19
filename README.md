@@ -71,7 +71,7 @@ $ nest generate module <name>
 $ nest generate controller <name> --flat
 
 ## Further reading
-[cli usage](https://docs.nestjs.com/cli/usages) 
+[Link to Google](https://www.google.com)
 ```
 
 ## Parts of Nest
