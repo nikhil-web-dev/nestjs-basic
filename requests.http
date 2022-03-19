@@ -8,8 +8,8 @@ POST http://localhost:3000/messages
 content-type: application/json
 
 {
-    "content": "abcd"
+    "content": "abcd22"
 }
 
 ### Get a particular message
-GET http://localhost:3000/messages/348
+GET http://localhost:3000/messages/354
