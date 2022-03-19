@@ -85,6 +85,22 @@ https://docs.nestjs.com/cli/usages
 - Interceptors - Adds extra logic to incoming requests or outgoing responses
 - Repositories - Handles data stored in a DB
 
+## Setting up automatic validation
+
+- Use global validation pipe [in main.ts]
+- Create DTO, a class that tells the different properties of the request body
+- Add validation rules to the class [npm class-validator]
+- Apply the class to the request handler
+
+## Services and Repositories
+
+Services and Repositories both are classes, however services are the best place to keep the business logics and repositories are the best place to keep storage related logics.
+
+## Inversion of control principle
+
+Classes should not create instances of its dependencies on its own. Inversion of Control (IoC) is a design principle that allows classes to be loosely coupled and, therefore, easier to test and maintain.
+Further reading - [https://www.educative.io/edpresso/what-is-inversion-of-control](https://www.educative.io/edpresso/what-is-inversion-of-control)
+
 
 ## Support
 
