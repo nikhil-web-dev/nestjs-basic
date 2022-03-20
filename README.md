@@ -100,12 +100,11 @@ Services and Repositories both are classes, however services are the best place 
 
 - It states classes should not create instances of its dependencies on its own. It. is a design principle that allows classes to be loosely coupled and, therefore, easier to test and maintain.
 
-# DI fundamentals
+### DI fundamentals
 
 - Dependency injection is an inversion of control technique wherein you delegate instantiation of dependencies to the IoC container, instead of doing it in your own code imperatively.
 
-# DI Container Flow
-- 
+### DI Container Flow
   <!--- Use the injectable decorator on each class and add them to the modules list of providers --->
  - At startup, register all classes with the container.
  - Container will figure out what each dependencies and each class has
