@@ -113,25 +113,12 @@ Services and Repositories both are classes, however services are the best place 
  - Container builds all the dependencies and provide us the instance.
  - Container will reuse the dependencies if needed.
 
-
-
-- Further reading - [https://www.educative.io/edpresso/what-is-inversion-of-control](https://www.educative.io/edpresso/what-is-inversion-of-control)
-
-
-
-
 Further reading - [https://www.educative.io/edpresso/what-is-inversion-of-control](https://www.educative.io/edpresso/what-is-inversion-of-control)
 
 
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
