@@ -105,10 +105,10 @@ Services and Repositories both are classes, however services are the best place 
 - Dependency injection is an inversion of control technique wherein you delegate instantiation of dependencies to the IoC container, instead of doing it in your own code imperatively.
 
 ### DI Container Flow
-  <!--- Use the injectable decorator on each class and add them to the modules list of providers --->
+> Use the injectable decorator on each class and add them to the modules list of provider
  - At startup, register all classes with the container.
- - Container will figure out what each dependencies and each class has
-  <!--- Nest will try to create controller instances --->
+ - Container will figure out what each dependencies and each class has.
+> Nest will try to create controller instances 
  - Then container creates an instance of a class.
  - Container builds all the dependencies and provide us the instance.
  - Container will reuse the dependencies if needed.
